@@ -50,7 +50,7 @@
 
 
         <h1>BODY DA APLICAÇÃO</h1>
-        @yield('content');
+        @yield('content')
 
         <footer>
             HDC Events  &copy; 2020

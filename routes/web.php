@@ -22,6 +22,6 @@ Route::get('/events/create', [EventController::class, 'create']);
 
 
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/contact/{id?}', function ($id = null) {
+    return view('contact', ['id' => $id]);
 });
